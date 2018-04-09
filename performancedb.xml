@@ -453,6 +453,23 @@
       <alias>BNI</alias>
     </alias>
 
+<!-- Cessna 177 Cardinal aircraft data -->
+    <aircraft>
+      <type>C177</type>
+      <base>light</base>
+      <climbrate-fpm>840.0</climbrate-fpm>
+      <takeoff-speed-kts>65.0</takeoff-speed-kts>
+      <cruise-speed-kts>115.0</cruise-speed-kts>
+      <approach-speed-kts>70.0</approach-speed-kts>
+      <touchdown-speed-kts>60.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>c177</match>
+      <match>Cessna 177</match>
+      <match>Cessna177</match>
+      <alias>C177</alias>
+    </alias>
+
 <!-- CRJ aircraft data -->
     <aircraft>
       <type>CRJ</type>
