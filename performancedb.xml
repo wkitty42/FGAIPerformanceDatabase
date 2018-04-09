@@ -430,6 +430,29 @@
       <alias>787</alias>
     </alias>
 
+<!-- Britten-Norman BN-2 Islander aircraft data -->
+    <aircraft>
+      <type>BNI</type>
+      <base>turboprop_transport</base>
+      <acceleration-kts-hour>6.0</acceleration-kts-hour>
+      <deceleration-kts-hour>2.0</deceleration-kts-hour>
+      <climbrate-fpm>970.0</climbrate-fpm>
+      <decentrate-fpm>485.0</decentrate-fpm>
+      <rotate-speed-kts>80.0</rotate-speed-kts>
+      <takeoff-speed-kts>90.0</takeoff-speed-kts>
+      <climb-speed-kts>92.0</climb-speed-kts>
+      <cruise-speed-kts>139.0</cruise-speed-kts>
+      <decent-speed-kts>80.0</decent-speed-kts>
+      <approach-speed-kts>70.0</approach-speed-kts>
+      <touchdown-speed-kts>65.0</touchdown-speed-kts>
+      <taxi-speed-kts>10.0</taxi-speed-kts>
+    </aircraft>
+    <alias>
+      <match>BN-2-</match>
+      <match>BN-2_</match>
+      <alias>BNI</alias>
+    </alias>
+
 <!-- CRJ aircraft data -->
     <aircraft>
       <type>CRJ</type>
