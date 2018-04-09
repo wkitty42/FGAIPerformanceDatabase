@@ -628,6 +628,23 @@
       <alias>J31</alias>
     </alias>
 
+<!-- Jetstream 41 aircraft data -->
+    <aircraft>
+      <type>JS41</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>2200.0</climbrate-fpm>
+      <takeoff-speed-kts>115.0</takeoff-speed-kts>
+      <climbspeed-kts>145.0</climbspeed-kts>
+      <cruise-speed-kts>260.0</cruise-speed-kts>
+      <approach-speed-kts>100.0</approach-speed-kts>
+      <touchdown-speed-kts>80.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>J41</match>
+      <match>Jetstream 41</match>
+      <alias>JS41</alias>
+    </alias>
+
 <!-- MD11 aircraft data -->
     <aircraft>
       <type>MD11</type>
