@@ -35,6 +35,16 @@
       <touchdown-speed-kts>60.0</touchdown-speed-kts>
       <taxi-speed-kts>15.0</taxi-speed-kts>
     </aircraft>
+    <!-- catch all for various light aicraft in the traffic DB -->
+    <alias>
+      <match>CNA</match>
+      <!-- generic Cessna apparently -->
+      <match>c172</match>
+      <match>c182</match>
+      <match>pa28</match>
+      <match>Cub</match>
+      <alias>light</alias>
+    </alias>
 
 <!-- generic WW2 fighter aircraft data -->
     <aircraft>
@@ -138,192 +148,6 @@
       <taxi-speed-kts>15.0</taxi-speed-kts>
     </aircraft>
 
-    <alias>
-      <!-- match any 787 type -->
-      <match>788</match>
-      <match>789</match>
-      <alias>787</alias>
-    </alias>
-    <alias>
-      <!-- match any 777 type -->
-      <match>777-</match>
-      <match>77</match>
-      <alias>777</alias>
-    </alias>
-    <alias>
-      <!-- match any 737 type -->
-      <match>73</match>
-      <match>Boeing_737-</match>
-      <alias>737</alias>
-    </alias>
-    <alias>
-      <!-- match any 76x type -->
-      <match>76</match>
-      <match>Boeing_767-</match>
-      <!-- and any 75x for the moment -->
-      <match>75</match>
-      <match>Boeing_757-</match>
-      <alias>767</alias>
-    </alias>
-    <alias>
-      <!-- match all 747 -->
-      <match>744</match>
-      <match>747-</match>
-      <match>Boeing_747-</match>
-      <match>747</match>
-      <alias>747-400</alias>
-    </alias>
-    <alias>
-      <!-- match MD11s -->
-      <match>MD11</match>
-      <!-- note this matches all MD11 prefixes - eg MD11/P -->
-      <alias>MD11</alias>
-    </alias>
-    <alias>
-      <match>300B2</match>
-      <match>300B4</match>
-      <match>300-</match>
-      <match>306</match>
-      <match>310</match>
-      <match>313</match>
-      <match>A310</match>
-      <!-- for the moment -->
-      <match>Airbus_A310</match>
-      <alias>A300</alias>
-    </alias>
-    <alias>
-      <match>A359</match>
-      <match>A350-900</match>
-      <match>359</match>
-	  <match>350</match>
-      <alias>A350</alias>
-    </alias>
-    <alias>
-      <match>34</match>
-      <!-- any A34x prefix -->
-      <match>A340</match>
-      <alias>A340</alias>
-    </alias>
-    <alias>
-      <match>330</match>
-      <match>332</match>
-      <match>333</match>
-      <match>33X</match>
-      <match>A33</match>
-      <match>Airbus_A330-</match>
-      <alias>A330</alias>
-    </alias>
-    <alias>
-      <match>32S</match>
-      <match>320</match>
-      <match>319</match>
-      <match>318</match>
-      <match>321</match>
-      <match>A319</match>
-      <match>A321</match>
-      <match>322</match>
-      <match>Airbus_A319</match>
-      <match>Airbus_A32</match>
-      <match>A320-</match>
-      <alias>A320</alias>
-    </alias>
-    <alias>
-      <match>380</match>
-      <match>388</match>
-      <match>380-</match>
-      <match>A380-</match>
-      <alias>A380</alias>
-    </alias>
-    <alias>
-      <match>F70</match>
-      <match>100</match>
-      <alias>F100</alias>
-    </alias>
-    <alias>
-      <match>F27-</match>
-      <match>F28-</match>
-      <alias>F27</alias>
-    </alias>
-    <alias>
-      <match>DH8</match>
-      <match>DHC8-</match>
-      <match>Dash8</match>
-      <match>DHC-8</match>
-      <alias>DHC8</alias>
-    </alias>
-    <alias>
-      <match>DH3</match>
-      <match>DH1</match>
-      <match>DH4</match>
-      <alias>DHC4</alias>
-    </alias>
-      <!-- DHC6 Twin Otter -->	
-	 <alias>
-      <match>DH6</match>
-      <alias>DHT</alias>
-    </alias>
-    <alias>
-      <match>D95</match>
-      <!-- Google suggests this means a DC9-50 -->
-      <match>M80</match>
-      <match>M81</match>
-      <match>M82</match>
-      <match>M83</match>
-      <match>M87</match>
-      <match>M88</match>
-      <match>M90</match>
-      <match>717</match>
-      <alias>MD80</alias>
-    </alias>
-    <alias>
-      <match>ER4</match>
-      <match>ER3</match>
-      <!-- according to Google, ERD is American Egales' code for an ERJ-135 -->
-      <match>ERD</match>
-      <match>145</match>
-      <match>ERJ145</match>
-      <match>135</match>
-      <match>erj195</match>
-      <alias>ERJ</alias>
-    </alias>
-    <alias>
-      <match>E75</match>
-      <match>E70</match>
-      <match>E90</match>
-      <match>E95</match>
-      <match>175</match>
-      <match>195</match>
-      <alias>E190</alias>
-    </alias>
-    <alias>
-      <match>CR2</match>
-      <match>CRJ_</match>
-      <match>CRK</match>
-      <match>CR7</match>
-      <match>CR9</match>
-      <match>CRJ-</match>
-      <alias>CRJ</alias>
-    </alias>
-    <alias>
-      <match>AT4</match>
-      <match>ATR_42</match>
-      <match>AT5</match>
-      <match>AT7</match>
-      <match>ATR_72</match>
-      <match>AT8-</match>
-      <alias>ATR</alias>
-    </alias>
-    <!-- catch all for various light aicraft in the traffic DB -->
-    <alias>
-      <match>CNA</match>
-      <!-- generic Cessna apparently -->
-      <match>c172</match>
-      <match>c182</match>
-      <match>pa28</match>
-      <match>Cub</match>
-      <alias>light</alias>
-    </alias>
-
 <!-- Boeing 747 aircraft data -->
     <aircraft>
       <type>747-400</type>
@@ -332,6 +156,14 @@
       <takeoff-speed-kts>170.0</takeoff-speed-kts>
       <cruise-speed-kts>490.0</cruise-speed-kts>
     </aircraft>
+    <alias>
+      <!-- match all 747 -->
+      <match>744</match>
+      <match>747-</match>
+      <match>Boeing_747-</match>
+      <match>747</match>
+      <alias>747-400</alias>
+    </alias>
 
 <!-- Airbus A380 aircraft data -->
     <aircraft>
@@ -341,6 +173,13 @@
       <takeoff-speed-kts>170.0</takeoff-speed-kts>
       <cruise-speed-kts>490.0</cruise-speed-kts>
     </aircraft>
+    <alias>
+      <match>380</match>
+      <match>388</match>
+      <match>380-</match>
+      <match>A380-</match>
+      <alias>A380</alias>
+    </alias>
 
 <!-- Airbus A350 aircraft data -->
     <aircraft>
@@ -354,6 +193,13 @@
       <approach-speed-kts>140.0</approach-speed-kts>
       <touchdown-speed-kts>130.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <match>A359</match>
+      <match>A350-900</match>
+      <match>359</match>
+      <match>350</match>
+      <alias>A350</alias>
+    </alias>
 
 <!-- Airbus A340 data -->
     <aircraft>
@@ -366,6 +212,12 @@
       <cruise-speed-kts>490.0</cruise-speed-kts>
       <decent-speed-kts>300.0</decent-speed-kts>
     </aircraft>
+    <alias>
+      <match>34</match>
+      <!-- any A34x prefix -->
+      <match>A340</match>
+      <alias>A340</alias>
+    </alias>
 
 <!-- Boeing 787 aircraft data -->
     <aircraft>
@@ -377,6 +229,12 @@
       <approach-speed-kts>160.0</approach-speed-kts>
       <touchdown-speed-kts>145.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <!-- match any 787 type -->
+      <match>788</match>
+      <match>789</match>
+      <alias>787</alias>
+    </alias>
 
 <!-- Boeing 777 aircraft data -->
     <aircraft>
@@ -388,6 +246,12 @@
       <approach-speed-kts>160.0</approach-speed-kts>
       <touchdown-speed-kts>145.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <!-- match any 777 type -->
+      <match>777-</match>
+      <match>77</match>
+      <alias>777</alias>
+    </alias>
 
 <!-- Boeing 757/767 aircraft data -->
     <aircraft>
@@ -399,6 +263,15 @@
       <approach-speed-kts>160.0</approach-speed-kts>
       <touchdown-speed-kts>145.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <!-- match any 76x type -->
+      <match>76</match>
+      <match>Boeing_767-</match>
+      <!-- and any 75x for the moment -->
+      <match>75</match>
+      <match>Boeing_757-</match>
+      <alias>767</alias>
+    </alias>
 
 <!-- Airbus A320 aircraft data -->
     <aircraft>
@@ -414,13 +287,39 @@
       <approach-speed-kts>150.0</approach-speed-kts>
       <touchdown-speed-kts>130.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <match>32S</match>
+      <match>320</match>
+      <match>319</match>
+      <match>318</match>
+      <match>321</match>
+      <match>A319</match>
+      <match>A321</match>
+      <match>322</match>
+      <match>Airbus_A319</match>
+      <match>Airbus_A32</match>
+      <match>A320-</match>
+      <alias>A320</alias>
+    </alias>
 
-<!-- Airbus A330 aircraft data -->
+<!-- Airbus A300 aircraft data -->
     <aircraft>
       <type>A300</type>
       <base>heavy_jet</base>
       <!-- need some A300 data -->
     </aircraft>
+    <alias>
+      <match>300B2</match>
+      <match>300B4</match>
+      <match>300-</match>
+      <match>306</match>
+      <match>310</match>
+      <match>313</match>
+      <match>A310</match>
+      <!-- for the moment -->
+      <match>Airbus_A310</match>
+      <alias>A300</alias>
+    </alias>
 
 <!-- Airbus A330 aircraft data -->
     <aircraft>
@@ -435,6 +334,15 @@
       <approach-speed-kts>150.0</approach-speed-kts>
       <touchdown-speed-kts>130.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <match>330</match>
+      <match>332</match>
+      <match>333</match>
+      <match>33X</match>
+      <match>A33</match>
+      <match>Airbus_A330-</match>
+      <alias>A330</alias>
+    </alias>
 
 <!-- Boeing 737 aircraft data -->
    <aircraft>
@@ -449,6 +357,12 @@
       <approach-speed-kts>150.0</approach-speed-kts>
       <touchdown-speed-kts>130.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <!-- match any 737 type -->
+      <match>73</match>
+      <match>Boeing_737-</match>
+      <alias>737</alias>
+    </alias>
 
 <!-- F100 aircraft data -->
     <aircraft>
@@ -460,6 +374,11 @@
       <approach-speed-kts>140.0</approach-speed-kts>
       <touchdown-speed-kts>120.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <match>F70</match>
+      <match>100</match>
+      <alias>F100</alias>
+    </alias>
 
 <!-- CRJ aircraft data -->
     <aircraft>
@@ -471,6 +390,15 @@
       <approach-speed-kts>140.0</approach-speed-kts>
       <touchdown-speed-kts>120.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <match>CR2</match>
+      <match>CRJ_</match>
+      <match>CRK</match>
+      <match>CR7</match>
+      <match>CR9</match>
+      <match>CRJ-</match>
+      <alias>CRJ</alias>
+    </alias>
 
 <!-- ERJ aircraft data -->
     <aircraft>
@@ -482,6 +410,17 @@
       <approach-speed-kts>140.0</approach-speed-kts>
       <touchdown-speed-kts>120.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <match>ER4</match>
+      <match>ER3</match>
+      <!-- according to Google, ERD is American Egales' code for an ERJ-135 -->
+      <match>ERD</match>
+      <match>145</match>
+      <match>ERJ145</match>
+      <match>135</match>
+      <match>erj195</match>
+      <alias>ERJ</alias>
+    </alias>
 
 <!-- E190 aircraft data -->
     <aircraft>
@@ -491,6 +430,15 @@
       <takeoff-speed-kts>140.0</takeoff-speed-kts>
       <cruise-speed-kts>480</cruise-speed-kts>
     </aircraft>
+    <alias>
+      <match>E75</match>
+      <match>E70</match>
+      <match>E90</match>
+      <match>E95</match>
+      <match>175</match>
+      <match>195</match>
+      <alias>E190</alias>
+    </alias>
 
 <!-- F27 aircraft data -->
     <aircraft>
@@ -505,6 +453,11 @@
       <touchdown-speed-kts>105.0</touchdown-speed-kts>
       <taxi-speed-kts>15.0</taxi-speed-kts>
     </aircraft>
+    <alias>
+      <match>F27-</match>
+      <match>F28-</match>
+      <alias>F27</alias>
+    </alias>
 
 <!-- DHC8 aircraft data -->
     <aircraft>
@@ -512,6 +465,13 @@
       <base>turboprop_transport</base>
       <cruise-speed-kts>290.0</cruise-speed-kts>
     </aircraft>
+    <alias>
+      <match>DH8</match>
+      <match>DHC8-</match>
+      <match>Dash8</match>
+      <match>DHC-8</match>
+      <alias>DHC8</alias>
+    </alias>
 
 <!-- DHC4 aircraft data -->
     <aircraft>
@@ -523,15 +483,25 @@
    <aircraft>
       <type>DHT</type>
       <base>turboprop_transport</base>
-      <rotate-speed-kts>80.0</rotate-speed-kts> 
-      <takeoff-speed-kts>90.0</takeoff-speed-kts>  
-	  <climbspeed-kts>92.0</climbspeed-kts>
+      <rotate-speed-kts>80.0</rotate-speed-kts>
+      <takeoff-speed-kts>90.0</takeoff-speed-kts>
+      <climbspeed-kts>92.0</climbspeed-kts>
       <cruise-speed-kts>145.0</cruise-speed-kts>
-	  <decent-speed-kts>80.0</decent-speed-kts>
-	  <approach-speed-kts>70.0</approach-speed-kts>
+      <decent-speed-kts>80.0</decent-speed-kts>
+      <approach-speed-kts>70.0</approach-speed-kts>
       <touchdown-speed-kts>64.0</touchdown-speed-kts>
-	  <taxi-speed-kts>25.0</taxi-speed-kts>	  
+      <taxi-speed-kts>25.0</taxi-speed-kts>
     </aircraft>	
+    <alias>
+      <match>DH3</match>
+      <match>DH1</match>
+      <match>DH4</match>
+      <alias>DHC4</alias>
+    </alias>
+    <alias>
+      <match>DH6</match>
+      <alias>DHT</alias>
+    </alias>
 
 <!-- ATR aircraft data -->
     <aircraft>
@@ -546,6 +516,15 @@
       <touchdown-speed-kts>115.0</touchdown-speed-kts>
       <taxi-speed-kts>20.0</taxi-speed-kts>
     </aircraft>
+    <alias>
+      <match>AT4</match>
+      <match>ATR_42</match>
+      <match>AT5</match>
+      <match>AT7</match>
+      <match>ATR_72</match>
+      <match>AT8-</match>
+      <alias>ATR</alias>
+    </alias>
 
 <!-- B1900 aircraft data -->
     <aircraft>
@@ -567,6 +546,12 @@
       <approach-speed-kts>160.0</approach-speed-kts>
       <touchdown-speed-kts>145.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <!-- match MD11s -->
+      <match>MD11</match>
+      <!-- note this matches all MD11 prefixes - eg MD11/P -->
+      <alias>MD11</alias>
+    </alias>
 
 <!-- MD80 aircraft data -->
     <aircraft>
@@ -578,6 +563,19 @@
       <approach-speed-kts>140.0</approach-speed-kts>
       <touchdown-speed-kts>120.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <match>D95</match>
+      <!-- Google suggests this means a DC9-50 -->
+      <match>M80</match>
+      <match>M81</match>
+      <match>M82</match>
+      <match>M83</match>
+      <match>M87</match>
+      <match>M88</match>
+      <match>M90</match>
+      <match>717</match>
+      <alias>MD80</alias>
+    </alias>
 
   </performancedb>
 </PropertyList>
