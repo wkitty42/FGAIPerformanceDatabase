@@ -709,5 +709,23 @@
       <alias>SF3</alias>
     </alias>
 
+<!-- Saab 2000 aircraft data -->
+    <aircraft>
+      <type>S20</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>2250.0</climbrate-fpm>
+      <takeoff-speed-kts>110.0</takeoff-speed-kts>
+      <climbspeed-kts>155.0</climbspeed-kts>
+      <cruise-speed-kts>321.0</cruise-speed-kts>
+      <approach-speed-kts>120.0</approach-speed-kts>
+      <touchdown-speed-kts>105.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>SAAB 2000</match>
+      <match>Saab 2000</match>
+      <match>SB20</match>
+      <alias>S20</alias>
+    </alias>
+
   </performancedb>
 </PropertyList>
