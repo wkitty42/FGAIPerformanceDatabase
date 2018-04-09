@@ -298,9 +298,28 @@
 
 <!-- B1900 aircraft data -->
     <aircraft>
-      <type>B1900</type>
+      <type>BEH</type>
       <base>turboprop_transport</base>
+      <climbrate-fpm>2625.0</climbrate-fpm>
+      <decentrate-fpm>1500.0</decentrate-fpm>
+      <rotate-speed-kts>110.0</rotate-speed-kts>
+      <takeoff-speed-kts>115.0</takeoff-speed-kts>
+      <climbspeed-kts>160.0</climbspeed-kts>
+      <cruise-speed-kts>260.0</cruise-speed-kts>
+      <decent-speed-kts>180.0</decent-speed-kts>
+      <approach-speed-kts>118.0</approach-speed-kts>
+      <touchdown-speed-kts>110.0</touchdown-speed-kts>
     </aircraft>
+    <alias>
+      <match>b1900d</match>
+      <match>B1900D</match>
+      <match>B1900</match>
+      <match>B1900C</match>
+      <match>B190</match>
+      <match>BE1</match>
+      <match>BES</match>
+      <alias>BEH</alias>
+    </alias>
 
 <!-- Boeing 737 aircraft data -->
     <aircraft>
