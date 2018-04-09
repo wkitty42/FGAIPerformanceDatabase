@@ -690,5 +690,24 @@
       <alias>MD80</alias>
     </alias>
 
+<!-- Saab 340 aircraft data -->
+    <aircraft>
+      <type>SF3</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>2300.0</climbrate-fpm>
+      <takeoff-speed-kts>115.0</takeoff-speed-kts>
+      <climbspeed-kts>160.0</climbspeed-kts>
+      <cruise-speed-kts>252.0</cruise-speed-kts>
+      <decent-speed-kts>240.0</decent-speed-kts>
+      <approach-speed-kts>105.0</approach-speed-kts>
+      <touchdown-speed-kts>95.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>SAAB 340</match>
+      <match>Saab 340</match>
+      <match>SF34</match>
+      <alias>SF3</alias>
+    </alias>
+
   </performancedb>
 </PropertyList>
