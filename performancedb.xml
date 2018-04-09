@@ -321,6 +321,24 @@
       <alias>BEH</alias>
     </alias>
 
+<!-- Beechcraft King Air 200 aircraft data -->
+    <aircraft>
+      <type>B200</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>2450.0</climbrate-fpm>
+      <takeoff-speed-kts>115.0</takeoff-speed-kts>
+      <cruise-speed-kts>260.0</cruise-speed-kts>
+      <approach-speed-kts>110.0</approach-speed-kts>
+      <touchdown-speed-kts>98.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>beech200</match>
+      <match>Beech200</match>
+      <match>BE20</match>
+      <match>C-12</match>
+      <alias>B200</alias>
+    </alias>
+
 <!-- Boeing 737 aircraft data -->
     <aircraft>
       <type>737</type>
