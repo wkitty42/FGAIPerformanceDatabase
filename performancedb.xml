@@ -609,6 +609,25 @@
       <alias>F100</alias>
     </alias>
 
+<!-- Jetstream 31 aircraft data -->
+    <aircraft>
+      <type>J31</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>2080.0</climbrate-fpm>
+      <takeoff-speed-kts>110.0</takeoff-speed-kts>
+      <cruise-speed-kts>230.0</cruise-speed-kts>
+      <approach-speed-kts>125.0</approach-speed-kts>
+      <touchdown-speed-kts>110.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>JS31</match>
+      <match>Jetstream 31</match>
+      <match>Jetstream 32</match>
+      <match>JS32</match>
+      <match>J32</match>
+      <alias>J31</alias>
+    </alias>
+
 <!-- MD11 aircraft data -->
     <aircraft>
       <type>MD11</type>
