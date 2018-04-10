@@ -369,6 +369,9 @@
     </aircraft>
     <alias>
       <!-- match all 747 -->
+      <match>74F</match>
+      <match>74H</match>
+      <match>74Y</match>
       <match>744</match>
       <match>747-</match>
       <match>Boeing_747-</match>
