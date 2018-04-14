@@ -473,6 +473,30 @@
       <alias>C177</alias>
     </alias>
 
+<!-- Cessna 208 Caravan aircraft data -->
+    <aircraft>
+      <type>C208</type>
+      <base>light</base>
+      <climbrate-fpm>500.0</climbrate-fpm>
+      <decentrate-fpm>500.0</decentrate-fpm>
+      <rotate-speed-kts>80.0</rotate-speed-kts>
+      <takeoff-speed-kts>85.0</takeoff-speed-kts>
+      <climbspeed-kts>130.0</climbspeed-kts>
+      <cruise-speed-kts>160.0</cruise-speed-kts>
+      <decent-speed-kts>150.0</decent-speed-kts>
+      <approach-speed-kts>120.0</approach-speed-kts>
+      <touchdown-speed-kts>75.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>CESSNA 208 Caravan</match>
+      <match>Cessna_208_Grand_Caravan</match>
+      <match>C-98</match>
+      <match>U-27</match>
+      <match>Grand Caravan</match>
+      <match>Super Cargomaster</match>
+      <alias>C208</alias>
+    </alias>
+
 <!-- CRJ aircraft data -->
     <aircraft>
       <type>CRJ</type>
