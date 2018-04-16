@@ -529,7 +529,7 @@
       <alias>C208</alias>
     </alias>
 
-<!-- Cessna Citation Bravo -->
+<!-- Cessna Citation Bravo aircraft data -->
     <aircraft>
       <type>CNJ</type>
       <base>jet_transport</base>
@@ -812,6 +812,116 @@
       <alias>S20</alias>
     </alias>
 
+<!-- Tu-134 aircraft data -->
+    <aircraft>
+      <type>TU3</type>
+      <base>jet_transport</base>
+      <climbrate-fpm>2000.0</climbrate-fpm>
+      <decentrate-fpm>3500.0</decentrate-fpm>
+      <rotate-speed-kts>140.0</rotate-speed-kts>
+      <takeoff-speed-kts>150.0</takeoff-speed-kts>
+      <climbspeed-kts>270.0</climbspeed-kts>
+      <cruise-speed-kts>400.0</cruise-speed-kts>
+      <decent-speed-kts>270.0</decent-speed-kts>
+      <approach-speed-kts>180.0</approach-speed-kts>
+      <touchdown-speed-kts>150.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>Tu-134</match>
+      <match>T134</match>
+      <match>Tupolev Tu-134</match>
+      <alias>TU3</alias>
+    </alias>
+
+<!-- Tu-154 aircraft data -->
+    <aircraft>
+      <type>TU5</type>
+      <base>jet_transport</base>
+      <climbrate-fpm>3000.0</climbrate-fpm>
+      <decentrate-fpm>3500.0</decentrate-fpm>
+      <rotate-speed-kts>140.0</rotate-speed-kts>
+      <takeoff-speed-kts>150.0</takeoff-speed-kts>
+      <climbspeed-kts>290.0</climbspeed-kts>
+      <cruise-speed-kts>475.0</cruise-speed-kts>
+      <decent-speed-kts>290.0</decent-speed-kts>
+      <approach-speed-kts>250.0</approach-speed-kts>
+      <touchdown-speed-kts>130.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>Tu-154</match>
+      <match>T154</match>
+      <match>Tupolev Tu-154</match>
+      <alias>TU5</alias>
+    </alias>
+
+<!-- Tu-204 aircraft data -->
+    <aircraft>
+      <type>T20</type>
+      <base>jet_transport</base>
+      <climbrate-fpm>3500.0</climbrate-fpm>
+      <decentrate-fpm>3500.0</decentrate-fpm>
+      <rotate-speed-kts>150.0</rotate-speed-kts>
+      <takeoff-speed-kts>160.0</takeoff-speed-kts>
+      <climbspeed-kts>290.0</climbspeed-kts>
+      <cruise-speed-kts>450.0</cruise-speed-kts>
+      <decent-speed-kts>290.0</decent-speed-kts>
+      <approach-speed-kts>250.0</approach-speed-kts>
+      <touchdown-speed-kts>140.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>Tu-204</match>
+      <match>Tu-204F</match>
+      <match>T204</match>
+      <match>Tupolev Tu-204</match>
+      <match>T214</match>
+      <match>T224</match>
+      <match>T234</match>
+      <alias>T20</alias>
+    </alias>
+
+<!-- Yak-40 aircraft data -->
+   <aircraft>
+      <type>YK4</type>
+      <base>jet_transport</base>
+      <climbrate-fpm>1300.0</climbrate-fpm>
+      <decentrate-fpm>2500.0</decentrate-fpm>
+      <rotate-speed-kts>100.0</rotate-speed-kts>
+      <takeoff-speed-kts>110.0</takeoff-speed-kts>
+      <climbspeed-kts>200.0</climbspeed-kts>
+      <cruise-speed-kts>245.0</cruise-speed-kts>
+      <decent-speed-kts>200.0</decent-speed-kts>
+      <approach-speed-kts>170.0</approach-speed-kts>
+      <touchdown-speed-kts>120.0</touchdown-speed-kts>
+    </aircraft>
+   <alias>
+      <match>Yak-40</match>
+      <match>YK40</match>
+      <match>Yakovlev Yak-40</match>
+      <alias>YK4</alias>
+    </alias>
+
+<!-- Yak-42/142 aircraft data -->
+   <aircraft>
+      <type>YK2</type>
+      <base>jet_transport</base>
+      <climbrate-fpm>2500.0</climbrate-fpm>
+      <decentrate-fpm>3500.0</decentrate-fpm>
+      <rotate-speed-kts>110.0</rotate-speed-kts>
+      <takeoff-speed-kts>120.0</takeoff-speed-kts>
+      <climbspeed-kts>270.0</climbspeed-kts>
+      <cruise-speed-kts>400.0</cruise-speed-kts>
+      <decent-speed-kts>270.0</decent-speed-kts>
+      <approach-speed-kts>180.0</approach-speed-kts>
+      <touchdown-speed-kts>130.0</touchdown-speed-kts>
+    </aircraft>
+   <alias>
+      <match>Yak-42</match>
+      <match>YK42</match>
+      <match>Yakovlev Yak-42</match>
+      <match>Yak-142</match>
+      <match>Yakovlev Yak-142</match>
+      <alias>YK2</alias>
+    </alias>
+
   </performancedb>
 </PropertyList>
-
