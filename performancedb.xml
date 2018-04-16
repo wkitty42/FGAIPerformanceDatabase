@@ -273,6 +273,78 @@
       <alias>A380</alias>
     </alias>
 
+<!-- Antonov An-24 aircraft data -->
+    <aircraft>
+      <type>AN4</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>1500.0</climbrate-fpm>
+      <decentrate-fpm>1500.0</decentrate-fpm>
+      <rotate-speed-kts>100.0</rotate-speed-kts>
+      <takeoff-speed-kts>110.0</takeoff-speed-kts>
+      <climbspeed-kts>200.0</climbspeed-kts>
+      <cruise-speed-kts>240.0</cruise-speed-kts>
+      <decent-speed-kts>240.0</decent-speed-kts>
+      <approach-speed-kts>170.0</approach-speed-kts>
+      <touchdown-speed-kts>120.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>An24</match>
+      <match>AN24</match>
+      <match>Y-7</match>
+      <match>Xian Y-7</match>
+      <match>Antonov An-24</match>
+      <match>YN7</match>
+      <alias>AN4</alias>
+    </alias>
+
+<!-- Antonov An-26 aircraft data -->
+    <aircraft>
+      <type>AN6</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>1500.0</climbrate-fpm>
+      <decentrate-fpm>1500.0</decentrate-fpm>
+      <rotate-speed-kts>110.0</rotate-speed-kts>
+      <takeoff-speed-kts>120.0</takeoff-speed-kts>
+      <climbspeed-kts>200.0</climbspeed-kts>
+      <cruise-speed-kts>235.0</cruise-speed-kts>
+      <decent-speed-kts>230.0</decent-speed-kts>
+      <approach-speed-kts>170.0</approach-speed-kts>
+      <touchdown-speed-kts>105.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>An26</match>
+      <match>AN26</match>
+      <match>A26</match>
+      <match>Y-7H</match>
+      <match>Xian Y-7H</match>
+      <match>Antonov An-26</match>
+      <alias>AN6</alias>
+    </alias>
+
+<!-- Antonov An-28 aircraft data -->
+    <aircraft>
+      <type>A28</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>900.0</climbrate-fpm>
+      <decentrate-fpm>800.0</decentrate-fpm>
+      <rotate-speed-kts>75.0</rotate-speed-kts>
+      <takeoff-speed-kts>80.0</takeoff-speed-kts>
+      <climbspeed-kts>140.0</climbspeed-kts>
+      <cruise-speed-kts>180.0</cruise-speed-kts>
+      <decent-speed-kts>170.0</decent-speed-kts>
+      <approach-speed-kts>150.0</approach-speed-kts>
+      <touchdown-speed-kts>90.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>An28</match>
+      <match>AN28</match>
+      <match>An-28</match>
+      <match>AN-28</match>
+      <match>PZL MielecXian An-28</match>
+      <match>Antonov An-28</match>
+      <alias>A28</alias>
+    </alias>
+
 <!-- ATR aircraft data -->
     <aircraft>
       <type>ATR</type>
@@ -527,6 +599,28 @@
       <match>Grand Caravan</match>
       <match>Super Cargomaster</match>
       <alias>C208</alias>
+    </alias>
+
+<!-- CESSNA 310 aircraft data -->
+   <aircraft>
+      <type>C310</type>
+      <base>light</base>
+      <climbrate-fpm>1000.0</climbrate-fpm>
+      <decentrate-fpm>800.0</decentrate-fpm>
+      <rotate-speed-kts>90.0</rotate-speed-kts>
+      <takeoff-speed-kts>95.0</takeoff-speed-kts>
+      <climbspeed-kts>125.0</climbspeed-kts>
+      <cruise-speed-kts>175.0</cruise-speed-kts>
+      <decent-speed-kts>150.0</decent-speed-kts>
+      <approach-speed-kts>130.0</approach-speed-kts>
+      <touchdown-speed-kts>94.0</touchdown-speed-kts>
+    </aircraft>
+   <alias>
+      <match>Cessna 310</match>
+      <match>T310</match>
+      <match>L-27</match>
+      <match>U-3</match>
+      <alias>C310</alias>
     </alias>
 
 <!-- Cessna Citation Bravo aircraft data -->
