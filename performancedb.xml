@@ -824,6 +824,30 @@
       <alias>JS41</alias>
     </alias>
 
+<!-- Let L-410 -->
+    <aircraft>
+      <type>L4T</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>1000.0</climbrate-fpm>
+      <decentrate-fpm>800.0</decentrate-fpm>
+      <rotate-speed-kts>80.0</rotate-speed-kts>
+      <takeoff-speed-kts>85.0</takeoff-speed-kts>
+      <climbspeed-kts>160.0</climbspeed-kts>
+      <cruise-speed-kts>200.0</cruise-speed-kts>
+      <decent-speed-kts>200.0</decent-speed-kts>
+      <approach-speed-kts>200.0</approach-speed-kts>
+      <touchdown-speed-kts>85.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>L410</match>
+      <match>L-410</match>
+      <match>L-420</match>
+      <match>Ayres L-410</match>
+      <match>LET-410</match>
+      <match>Let-410</match>
+      <alias>L4T</alias>
+    </alias>
+
 <!-- MD11 aircraft data -->
     <aircraft>
       <type>MD11</type>
@@ -867,6 +891,28 @@
       <match>M90</match>
       <match>717</match>
       <alias>MD80</alias>
+    </alias>
+
+<!-- Pilatus PC-12 -->
+    <aircraft>
+      <type>PL2</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>1000.0</climbrate-fpm>
+      <decentrate-fpm>1500.0</decentrate-fpm>
+      <rotate-speed-kts>100.0</rotate-speed-kts>
+      <takeoff-speed-kts>110.0</takeoff-speed-kts>
+      <climbspeed-kts>130.0</climbspeed-kts>
+      <cruise-speed-kts>270.0</cruise-speed-kts>
+      <decent-speed-kts>210.0</decent-speed-kts>
+      <approach-speed-kts>180.0</approach-speed-kts>
+      <touchdown-speed-kts>85.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>PC12</match>
+      <match>PC-12</match>
+      <match>Pilatus PC-12</match>
+      <match>Pilatus_PC-12</match>
+      <alias>PL2</alias>
     </alias>
 
 <!-- Saab 340 aircraft data -->
