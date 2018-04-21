@@ -290,6 +290,7 @@
     <alias>
       <match>An24</match>
       <match>AN24</match>
+      <match>An-24</match>
       <match>Y-7</match>
       <match>Xian Y-7</match>
       <match>Antonov An-24</match>
