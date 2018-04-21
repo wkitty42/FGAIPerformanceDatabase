@@ -731,6 +731,29 @@
       <alias>E190</alias>
     </alias>
 
+<!-- Embraer EMB 120 Brasilia aircraft data -->
+    <aircraft>
+      <type>EM2</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>1500.0</climbrate-fpm>
+      <decentrate-fpm>1500.0</decentrate-fpm>
+      <rotate-speed-kts>110.0</rotate-speed-kts>
+      <takeoff-speed-kts>120.0</takeoff-speed-kts>
+      <climbspeed-kts>220.0</climbspeed-kts>
+      <cruise-speed-kts>290.0</cruise-speed-kts>
+      <decent-speed-kts>290.0</decent-speed-kts>
+      <approach-speed-kts>250.0</approach-speed-kts>
+      <touchdown-speed-kts>126.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>E120</match>
+      <match>Brasilia</match>
+      <match>VC-97</match>
+      <match>EMB-120 Brasilia</match>
+      <match>Embraer_120</match>
+      <alias>EM2</alias>
+    </alias>
+
 <!-- ERJ aircraft data -->
     <aircraft>
       <type>ERJ</type>
@@ -950,6 +973,31 @@
       <match>Saab 2000</match>
       <match>SB20</match>
       <alias>S20</alias>
+    </alias>
+
+<!-- Sukhoi Superjet 100 aircraft data -->
+   <aircraft>
+      <type>SU95</type>
+      <base>jet_transport</base>
+      <climbrate-fpm>2500.0</climbrate-fpm>
+      <decentrate-fpm>2800.0</decentrate-fpm>
+      <rotate-speed-kts>150.0</rotate-speed-kts>
+      <takeoff-speed-kts>160.0</takeoff-speed-kts>
+      <climbspeed-kts>280.0</climbspeed-kts>
+      <cruise-speed-kts>450.0</cruise-speed-kts>
+      <decent-speed-kts>280.0</decent-speed-kts>
+      <approach-speed-kts>210.0</approach-speed-kts>
+      <touchdown-speed-kts>130.0</touchdown-speed-kts>
+    </aircraft>
+   <alias>
+      <match>Superjet 100</match>
+      <match>Superjet 100-95 </match>
+      <match>Sukhoi Superjet 100</match>
+      <match>SSJ95</match>
+      <match>SSJ 100-95</match>
+      <match>SSJ100-95</match>
+      <match>SSJ100</match>
+      <alias>SU95</alias>
     </alias>
 
 <!-- Tu-134 aircraft data -->
