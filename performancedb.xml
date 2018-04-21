@@ -619,6 +619,7 @@
     </aircraft>
    <alias>
       <match>Cessna 310</match>
+      <match>c310</match>
       <match>T310</match>
       <match>L-27</match>
       <match>U-3</match>
