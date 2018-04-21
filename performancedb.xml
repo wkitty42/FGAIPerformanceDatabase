@@ -664,11 +664,14 @@
       <touchdown-speed-kts>120.0</touchdown-speed-kts>
     </aircraft>
     <alias>
+      <match>CR1</match>
       <match>CR2</match>
       <match>CRJ_</match>
       <match>CRK</match>
       <match>CR7</match>
+      <match>CRJ7</match>
       <match>CR9</match>
+      <match>CRJ9</match>
       <match>CRJ-</match>
       <alias>CRJ</alias>
     </alias>
