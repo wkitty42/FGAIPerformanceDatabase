@@ -642,6 +642,7 @@
     </aircraft>
     <alias>
       <match>Citation Bravo</match>
+      <match>CitationBravo</match>
       <match>Citation 2</match>
       <match>Cessna 550</match>
       <match>Cessna Citation</match>
