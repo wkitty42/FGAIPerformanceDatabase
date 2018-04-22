@@ -413,36 +413,36 @@
     </alias>
 
   <!-- BAe-146 - Avroliner aircraft data -->
-     <aircraft>
-       <type>ARJ</type>
-       <base>jet_transport</base>
-       <climbrate-fpm>2000.0</climbrate-fpm>
-       <decentrate-fpm>3000.0</decentrate-fpm>
-       <rotate-speed-kts>120.0</rotate-speed-kts>
-       <takeoff-speed-kts>125.0</takeoff-speed-kts>
-       <climbspeed-kts>220.0</climbspeed-kts>
-       <cruise-speed-kts>400.0</cruise-speed-kts>
-       <decent-speed-kts>250.0</decent-speed-kts>
-       <approach-speed-kts>200.0</approach-speed-kts>
-       <touchdown-speed-kts>125.0</touchdown-speed-kts>
-     </aircraft>
-     <alias>
-       <match>RJ70</match>
-       <match>RJ85</match>
-       <match>RJ100</match>
-       <match>AR1</match>
-       <match>AR7</match>
-       <match>AR8</match>
-       <match>146</match>
-       <match>146-100</match>
-       <match>146-200</match>
-       <match>146-300</match>
-       <match>ARX</match>
-       <match>B461</match>
-       <match>B462</match>
-       <match>B463</match>
-       <alias>ARJ</alias>
-     </alias>
+    <aircraft>
+      <type>ARJ</type>
+      <base>jet_transport</base>
+      <climbrate-fpm>2000.0</climbrate-fpm>
+      <decentrate-fpm>3000.0</decentrate-fpm>
+      <rotate-speed-kts>120.0</rotate-speed-kts>
+      <takeoff-speed-kts>125.0</takeoff-speed-kts>
+      <climbspeed-kts>220.0</climbspeed-kts>
+      <cruise-speed-kts>400.0</cruise-speed-kts>
+      <decent-speed-kts>250.0</decent-speed-kts>
+      <approach-speed-kts>200.0</approach-speed-kts>
+      <touchdown-speed-kts>125.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>RJ70</match>
+      <match>RJ85</match>
+      <match>RJ100</match>
+      <match>AR1</match>
+      <match>AR7</match>
+      <match>AR8</match>
+      <match>146</match>
+      <match>146-100</match>
+      <match>146-200</match>
+      <match>146-300</match>
+      <match>ARX</match>
+      <match>B461</match>
+      <match>B462</match>
+      <match>B463</match>
+      <alias>ARJ</alias>
+    </alias>
 
 <!-- Beechcraft King Air 200 aircraft data -->
     <aircraft>
