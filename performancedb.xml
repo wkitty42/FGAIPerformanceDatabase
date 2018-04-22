@@ -33,7 +33,24 @@
       <decent-speed-kts>80.0</decent-speed-kts>
       <approach-speed-kts>70.0</approach-speed-kts>
       <touchdown-speed-kts>60.0</touchdown-speed-kts>
-      <taxi-speed-kts>15.0</taxi-speed-kts>
+      <taxi-speed-kts>10.0</taxi-speed-kts>
+    </aircraft>
+<!-- generic light aircraft data duplicate of above type=light because some traffic files use light and others use light_aircraft -->
+<!-- we prefer light_aircraft -->
+    <aircraft>
+      <type>light_aircraft</type>
+      <acceleration-kts-hour>2.0</acceleration-kts-hour>
+      <deceleration-kts-hour>2.0</deceleration-kts-hour>
+      <climbrate-fpm>450.0</climbrate-fpm>
+      <decentrate-fpm>1000.0</decentrate-fpm>
+      <rotate-speed-kts>70.0</rotate-speed-kts>
+      <takeoff-speed-kts>70.0</takeoff-speed-kts>
+      <climbspeed-kts>80.0</climbspeed-kts>
+      <cruise-speed-kts>100.0</cruise-speed-kts>
+      <decent-speed-kts>80.0</decent-speed-kts>
+      <approach-speed-kts>70.0</approach-speed-kts>
+      <touchdown-speed-kts>60.0</touchdown-speed-kts>
+      <taxi-speed-kts>10.0</taxi-speed-kts>
     </aircraft>
     <!-- catch all for various light aicraft in the traffic DB -->
     <alias>
@@ -43,7 +60,7 @@
       <match>c182</match>
       <match>pa28</match>
       <match>Cub</match>
-      <alias>light</alias>
+      <alias>light_aircraft</alias>
     </alias>
 
 <!-- generic WW2 fighter aircraft data -->
@@ -565,7 +582,7 @@
 <!-- Cessna 177 Cardinal aircraft data -->
     <aircraft>
       <type>C177</type>
-      <base>light</base>
+      <base>light_aircraft</base>
       <climbrate-fpm>840.0</climbrate-fpm>
       <takeoff-speed-kts>65.0</takeoff-speed-kts>
       <cruise-speed-kts>115.0</cruise-speed-kts>
@@ -582,7 +599,7 @@
 <!-- Cessna 208 Caravan aircraft data -->
     <aircraft>
       <type>C208</type>
-      <base>light</base>
+      <base>light_aircraft</base>
       <climbrate-fpm>500.0</climbrate-fpm>
       <decentrate-fpm>500.0</decentrate-fpm>
       <rotate-speed-kts>80.0</rotate-speed-kts>
@@ -606,7 +623,7 @@
 <!-- CESSNA 310 aircraft data -->
    <aircraft>
       <type>C310</type>
-      <base>light</base>
+      <base>light_aircraft</base>
       <climbrate-fpm>1000.0</climbrate-fpm>
       <decentrate-fpm>800.0</decentrate-fpm>
       <rotate-speed-kts>90.0</rotate-speed-kts>
