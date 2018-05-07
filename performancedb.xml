@@ -236,7 +236,7 @@
       <alias>A330</alias>
     </alias>
 
-<!-- Airbus A340 data -->
+<!-- Airbus A340 aircraft data -->
     <aircraft>
       <type>A340</type>
       <base>heavy_jet</base>
@@ -556,6 +556,48 @@
       <alias>787</alias>
     </alias>
 
+<!-- Bombardier CS100 aircraft data -->
+    <aircraft>
+      <type>CS1</type>
+      <base>jet_transport</base>
+      <climbrate-fpm>2500.0</climbrate-fpm>
+      <decentrate-fpm>2500.0</decentrate-fpm>
+      <rotate-speed-kts>130.0</rotate-speed-kts>
+      <takeoff-speed-kts>140.0</takeoff-speed-kts>
+      <climbspeed-kts>280.0</climbspeed-kts>
+      <cruise-speed-kts>445.0</cruise-speed-kts>
+      <decent-speed-kts>250.0</decent-speed-kts>
+      <approach-speed-kts>210.0</approach-speed-kts>
+      <touchdown-speed-kts>135.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>BCS1</match>
+      <match>CS100</match>
+      <match>Bombardier CS100</match>
+      <alias>CS1</alias>
+    </alias>
+
+<!-- Bombardier CS300 aircraft data -->
+    <aircraft>
+      <type>CS3</type>
+      <base>jet_transport</base>
+      <climbrate-fpm>2600.0</climbrate-fpm>
+      <decentrate-fpm>2200.0</decentrate-fpm>
+      <rotate-speed-kts>155.0</rotate-speed-kts>
+      <takeoff-speed-kts>165.0</takeoff-speed-kts>
+      <climbspeed-kts>280.0</climbspeed-kts>
+      <cruise-speed-kts>445.0</cruise-speed-kts>
+      <decent-speed-kts>250.0</decent-speed-kts>
+      <approach-speed-kts>210.0</approach-speed-kts>
+      <touchdown-speed-kts>140.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>BCS3</match>
+      <match>CS300</match>
+      <match>Bombardier CS300</match>
+      <alias>CS3</alias>
+    </alias>
+
 <!-- Britten-Norman BN-2 Islander aircraft data -->
     <aircraft>
       <type>BNI</type>
@@ -577,6 +619,27 @@
       <match>BN-2-</match>
       <match>BN-2_</match>
       <alias>BNI</alias>
+    </alias>
+
+<!-- Centrair 101 Pegase aircraft data -->
+    <aircraft>
+      <type>glid</type>
+      <base>light</base>
+      <climbrate-fpm>450.0</climbrate-fpm>
+      <decentrate-fpm>450.0</decentrate-fpm>
+      <rotate-speed-kts>34.0</rotate-speed-kts>
+      <takeoff-speed-kts>40.0</takeoff-speed-kts>
+      <climbspeed-kts>65.0</climbspeed-kts>
+      <cruise-speed-kts>75.0</cruise-speed-kts>
+      <decent-speed-kts>70.0</decent-speed-kts>
+      <approach-speed-kts>60.0</approach-speed-kts>
+      <touchdown-speed-kts>50.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>Centrair 101</match>
+      <match>Centrair101</match>
+      <match>centrair101</match>
+      <alias>glid</alias>
     </alias>
 
 <!-- Cessna 177 Cardinal aircraft data -->
@@ -703,6 +766,48 @@
       <match>DH1</match>
       <match>DH4</match>
       <alias>DHC4</alias>
+    </alias>
+
+<!-- DHC Dash 8 Q300 aircraft data -->
+    <aircraft>
+      <type>DH3</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>1200.0</climbrate-fpm>
+      <decentrate-fpm>1500.0</decentrate-fpm>
+      <rotate-speed-kts>105.0</rotate-speed-kts>
+      <takeoff-speed-kts>110.0</takeoff-speed-kts>
+      <climbspeed-kts>210.0</climbspeed-kts>
+      <cruise-speed-kts>250.0</cruise-speed-kts>
+      <decent-speed-kts>250.0</decent-speed-kts>
+      <approach-speed-kts>210.0</approach-speed-kts>
+      <touchdown-speed-kts>110.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>DH8C</match>
+      <match>DHC-8-300</match>
+      <match>Dash 8 Q300</match>
+      <alias>DH3</alias>
+    </alias>
+
+<!-- DHC Dash 8 Q400 aircraft data -->
+    <aircraft>
+      <type>DH4</type>
+      <base>turboprop_transport</base>
+      <climbrate-fpm>1500.0</climbrate-fpm>
+      <decentrate-fpm>1500.0</decentrate-fpm>
+      <rotate-speed-kts>110.0</rotate-speed-kts>
+      <takeoff-speed-kts>115.0</takeoff-speed-kts>
+      <climbspeed-kts>210.0</climbspeed-kts>
+      <cruise-speed-kts>360.0</cruise-speed-kts>
+      <decent-speed-kts>270.0</decent-speed-kts>
+      <approach-speed-kts>245.0</approach-speed-kts>
+      <touchdown-speed-kts>120.0</touchdown-speed-kts>
+    </aircraft>
+    <alias>
+      <match>DH8D</match>
+      <match>DHC-8-400</match>
+      <match>Dash 8 Q400</match>
+      <alias>DH4</alias>
     </alias>
 
 <!-- DHC6 Twin Otter aircraft data -->
@@ -871,7 +976,7 @@
       <alias>JS41</alias>
     </alias>
 
-<!-- Let L-410 -->
+<!-- Let L-410 aircraft data -->
     <aircraft>
       <type>L4T</type>
       <base>turboprop_transport</base>
@@ -940,7 +1045,7 @@
       <alias>MD80</alias>
     </alias>
 
-<!-- Pilatus PC-12 -->
+<!-- Pilatus PC-12 aircraft data -->
     <aircraft>
       <type>PL2</type>
       <base>turboprop_transport</base>
