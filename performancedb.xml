@@ -623,7 +623,7 @@
 
 <!-- Centrair 101 Pegase aircraft data -->
     <aircraft>
-      <type>glid</type>
+      <type>glider</type>
       <base>light</base>
       <climbrate-fpm>450.0</climbrate-fpm>
       <decentrate-fpm>450.0</decentrate-fpm>
@@ -639,7 +639,7 @@
       <match>Centrair 101</match>
       <match>Centrair101</match>
       <match>centrair101</match>
-      <alias>glid</alias>
+      <alias>glider</alias>
     </alias>
 
 <!-- Cessna 177 Cardinal aircraft data -->
